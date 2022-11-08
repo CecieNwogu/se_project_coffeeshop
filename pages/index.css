@@ -109,8 +109,8 @@
 
 .header__image {
   position: absolute;
-  height: 646px;
-  width: 568px;
+  height: 568px;
+  width: 646px;
   top: 124px;
   right: 5px;
   z-index: 0;
@@ -243,7 +243,7 @@
   line-height: 52px;
 }
 
-.recipies__subtitle {
+.recipes__subtitle {
   margin-left: 80px;
   max-width: 430px;
   margin-top: 24px;
@@ -255,7 +255,7 @@
   margin-bottom: 80px;
 }
 
-.recipie__videos {
+.recipe__videos {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -266,17 +266,17 @@
   width: 273px;
 }
 
-.recipie__video {
+.recipe__video {
   margin-bottom: 100px;
 }
 
-.recipies__iframe {
+.recipes__iframe {
   width: "560";
   height: "315";
   border: none;
 }
 
-.recipies__video-caption {
+.recipes__video-caption {
   margin-top: 24px;
   font-family: "Inter" sans-serif;
   font-style: normal;

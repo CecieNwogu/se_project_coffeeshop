@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicum Coffee House</title>
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="/icon/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,7 +68,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="menu">
+        <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
@@ -142,16 +142,16 @@
             </div>
           </div>
         </section>
-        <section class="recipes">
-          <h2 class="recipes__title">Recipies</h2>
-          <h3 class="recipies__subtitle">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <h3 class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
           </h3>
-          <div class="recipie__videos">
-            <div class="recipie__video">
+          <div class="recipe__videos">
+            <div class="recipe__video">
               <iframe
-                class="recipies__iframe"
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
@@ -159,14 +159,14 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <p class="recipies__video-caption">
+              <p class="recipes__video-caption">
                 <span>Aeropress</span>
                 <span>~5 minutes</span>
               </p>
             </div>
-            <div class="recipie__video">
+            <div class="recipe__video">
               <iframe
-                class="recipies__iframe"
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8"
@@ -174,14 +174,14 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <p class="recipies__video-caption">
+              <p class="recipes__video-caption">
                 <span>French press recipe</span>
                 <span>~15 minutes</span>
               </p>
             </div>
           </div>
         </section>
-        <section class="reservations">
+        <section class="reservations" id="book-a-table">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
             <fieldset class="form__fieldset">
@@ -192,6 +192,7 @@
                 type="text"
                 name="name"
                 placeholder="Name Surname"
+                required
               />
               <label for="number-of-guests" class="form__label">
                 Number of guests *</label
@@ -199,9 +200,12 @@
               <input
                 class="form__input"
                 type="number"
+                min="1"
+                max="8"
                 id="number-of-guests"
                 name="number-of-guests"
                 placeholder="1-8"
+                required
               />
               <label for="date-and-time" class="form__label">
                 Date & time *
@@ -211,6 +215,7 @@
                 type="datetime-local"
                 id="date-and-time"
                 name="date-and-time"
+                required
               />
               <label for="your-email" class="form__label">Your email * </label>
               <input
@@ -219,6 +224,7 @@
                 id="your-email"
                 name="your-email"
                 placeholder="email@email.com"
+                required
               />
               <button type="submit" class="form__button">Book a table</button>
               <label for="terms-of-use" class="form__label">
@@ -227,6 +233,7 @@
                   type="checkbox"
                   id="terms-of-use"
                   name="terms-of-use"
+                  required
                 />
                 I agree with the terms of use
               </label>
@@ -253,7 +260,7 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <div class="footer__content">
           <img
             class="footer__logo"
