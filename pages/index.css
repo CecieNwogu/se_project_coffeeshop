@@ -255,7 +255,7 @@
   margin-bottom: 80px;
 }
 
-.recipe__videos {
+.recipes__videos {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -266,7 +266,7 @@
   width: 273px;
 }
 
-.recipe__video {
+.recipes__video {
   margin-bottom: 100px;
 }
 
