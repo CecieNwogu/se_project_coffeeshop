@@ -16,7 +16,7 @@
   height: 60px;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   display: flex;
   justify-content: center;
   flex-direction: column;
