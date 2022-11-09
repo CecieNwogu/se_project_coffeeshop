@@ -441,6 +441,13 @@
   padding: 60px 100px 60px 80px;
 }
 
+.footer__column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
 .footer__content {
   display: flex;
   align-items: flex-start;
@@ -448,7 +455,6 @@
 }
 
 .footer__content_social {
-  margin-left: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -460,6 +466,7 @@
   height: 21px;
   width: 116px;
   margin-top: 60px;
+  display: flex;
 }
 
 .footer__list {
