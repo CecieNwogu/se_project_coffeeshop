@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0em;
 }
 
 .form__fieldset {
@@ -14,7 +15,7 @@
 .form__label {
   margin-top: 32px;
   margin-bottom: 32px;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -24,7 +25,7 @@
 .form__input {
   max-width: 385px;
   border-radius: 4px;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -44,7 +45,7 @@
   height: 60px;
   width: 385px;
   text-decoration: none;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

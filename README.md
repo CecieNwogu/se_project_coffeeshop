@@ -13,5 +13,4 @@ This is the second project of the Software Engineer program at Practicum by Yand
 
 ## Plan on improving the project
 
-Add your ideas here :)
 On future projects, i want to implement more animations on the page. More animations the the page require additional studying and practice.
