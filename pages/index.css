@@ -288,7 +288,7 @@
   align-items: flex-end;
 }
 
-.reservations {
+.reservation {
   background-image: url("../images/background_reservation.svg");
   background-color: #d9e7ff;
   background-repeat: no-repeat;
@@ -307,11 +307,14 @@
   font-size: 44px;
   line-height: 52px;
 }
-
-.reservation__form {
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.reservation__form {
+  margin-top: 80px;
 }
 
 .form__fieldset {
