@@ -454,7 +454,7 @@
   height: 60px;
 }
 
-.footer__content_social {
+.footer__column_content_social {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -483,7 +483,7 @@
   margin-bottom: 0;
 }
 
-.footer__content_social-heading {
+.footer__column_content_social-heading {
   margin-bottom: 20px;
   margin-top: 0;
   margin-right: 0;
