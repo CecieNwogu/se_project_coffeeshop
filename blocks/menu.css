@@ -8,8 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  align-content: space-around;
-  align-self: center;
   color: #fff;
 }
 
@@ -22,18 +20,18 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-left: 50px;
 }
 
 .menu__subtitle {
   max-width: 780px;
   margin-bottom: 100px;
+  margin-top: 0px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 180px;
+  text-align: center;
 }
 
 .menu__cards {
@@ -42,4 +40,5 @@
   flex-flow: row wrap;
   justify-content: center;
   gap: 100px;
+  width: 100%;
 }
