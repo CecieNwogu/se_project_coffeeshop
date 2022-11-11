@@ -48,15 +48,13 @@
 }
 
 .about__paragraph {
-  width: 660px;
-  display: block;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 660px;
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .about__paragraph:last-child {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .about__circle {
   position: absolute;
